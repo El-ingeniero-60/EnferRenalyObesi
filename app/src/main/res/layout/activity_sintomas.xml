@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sintomas">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Síntomas"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="396dp"
+        android:layout_height="36dp"
+        android:text="Da clic en los síntomas que tengas para conocer sí debes acudir a consulta"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+
+    <Button
+        android:id="@+id/btn_regresar"
+        android:layout_width="189dp"
+        android:layout_height="62dp"
+        android:backgroundTint="@color/btn_regresar"
+        android:text="Regresar"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.459"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.976" />
+
+    <RelativeLayout
+        android:layout_width="383dp"
+        android:layout_height="531dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.62">
+
+        <CheckBox
+            android:id="@+id/check_1"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="495dp"
+            android:text="Hinchazón en pies y piernas "
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_2"
+            android:layout_width="340dp"
+            android:layout_height="36dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="456dp"
+            android:text="Piel seca y con comezón"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_3"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="402dp"
+            android:text="Vas al baño más o menos seguido que antes"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_4"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="345dp"
+            android:text="Presión alta"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_5"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="285dp"
+            android:text="Pérdida del apetito"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_6"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="229dp"
+            android:text="Cansancio"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_7"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="170dp"
+            android:text="Náusea y/o vómito"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/check_8"
+            android:layout_width="338dp"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="113dp"
+            android:text="Problemas al dormir"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_ac"
+            android:layout_width="186dp"
+            android:layout_height="53dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="108dp"
+            android:layout_marginBottom="21dp"
+            android:backgroundTint="@color/btn_redondo"
+            android:text="Acude a consulta"
+            android:textColor="@color/black"
+            android:textSize="15sp"
+            android:enabled="false" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
